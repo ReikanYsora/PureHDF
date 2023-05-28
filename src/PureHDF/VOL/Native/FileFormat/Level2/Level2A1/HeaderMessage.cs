@@ -71,7 +71,7 @@ internal class HeaderMessage
         var driverPosition2 = context.Driver.Position;
         var paddingBytes = DataSize - (driverPosition2 - driverPosition1);
 
-        context.Driver.ReadBytes((int)paddingBytes);
+        context.Driver.ReadBytes(paddingBytes);
     }
 
     #endregion

@@ -62,7 +62,7 @@ internal class H5FileHandleDriver : H5DriverBase
         return Read<byte>();
     }
 
-    public override byte[] ReadBytes(int count)
+    public override byte[] ReadBytes(long count)
     {
         var buffer = new byte[count];
         ReadCore(buffer);

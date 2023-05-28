@@ -82,7 +82,7 @@ internal class H5StreamDriver : H5DriverBase
         return Read<byte>();
     }
 
-    public override byte[] ReadBytes(int count)
+    public override byte[] ReadBytes(long count)
     {
         var buffer = new byte[count];
         _stream.Read(buffer);

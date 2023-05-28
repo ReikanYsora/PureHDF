@@ -19,7 +19,7 @@ internal abstract class H5DriverBase : IH5ReadStream
     public abstract void Seek(long offset, SeekOrigin origin);
 
     public abstract byte ReadByte();
-    public abstract byte[] ReadBytes(int count);
+    public abstract byte[] ReadBytes(long count);
     public abstract ushort ReadUInt16();
     public abstract short ReadInt16();
     public abstract uint ReadUInt32();

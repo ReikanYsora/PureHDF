@@ -16,8 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="../../src/PureHDF/PureHDF.csproj" OutputItemType="Analyzer" />
-
-    <ProjectReference Include="../../src/PureHDF.SourceGenerator/PureHDF.SourceGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
   </ItemGroup>
 
   <ItemGroup>

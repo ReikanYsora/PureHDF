@@ -53,7 +53,7 @@ internal unsafe class H5MemoryMappedFileDriver : H5DriverBase
         return value;
     }
 
-    public override byte[] ReadBytes(int count)
+    public override byte[] ReadBytes(long count)
     {
         var buffer = new byte[count];
         ReadCore(buffer);
